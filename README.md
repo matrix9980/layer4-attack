@@ -7,7 +7,7 @@
 <br>
 现在开始安装，，，
 <br>
-<pre>cd /root && git clone https://github.com/KLDGodY/udp-attack.git && cd udp-attack && perl setup.pl</pre>
+<pre>cd /root && git clone https://github.com/KLDGodY/udp-attack.git && cd udp-attack && mv ./* ../ && cd ../ && perl setup.pl</pre>
 <blockquote>如果显示perl没有安装，，请自行到网上找教程，，，</blockquote>
 安装过程中如果问你要不要安装某些东西，按y同意
 <br>
