@@ -29,7 +29,7 @@ system("sh /root/sedip.sh");
 system("sh /root/sedpass.sh");
 print "\nGo to http://YOURVPSIPADDRESS/flood.php\n";	
 print "Your VPS IP Address is: ";
-system("curl -L tool.lu/ip");   
+system("curl ip.sb");   
 sleep(2);
 system("rm -rf /root/sedip.sh");
 system("rm -rf /root/sedpass.sh");
