@@ -13,7 +13,7 @@
 <br>
 等待安装好后，，就可以开始攻击力，，
 命令格式：<pre>perl /root/ssyn.pl 要攻击的IP 端口 每秒发送数据包(bytes) 持续攻击秒数</pre>
-当然你也可以用api攻击，地址是<pre>http://你的服务器地址/api.php?key=系统密码&host=[host]&port=[port]&time=[time]&method=[method]</pre>
+<!-- 当然你也可以用api攻击，地址是<pre>http://你的服务器地址/api.php?key=系统密码&host=[host]&port=[port]&time=[time]&method=[method]</pre>-->
 说一下，method有3种模式，分别是udp，tcp，和stop，，
 我的tg：<a href="//t.me/KLDGodY">@KLDGodY</a><br>
 tg水群：<a href="//t.me/kldgodynb">@kldgodynb</a><br>欢迎各位dl加入，，，
