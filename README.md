@@ -10,7 +10,7 @@
 
 ```BASH
 cd ~
-yum update
+yum update -y
 yum install epel-release -y
 yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 yum install yum-utils -y
