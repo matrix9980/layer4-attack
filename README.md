@@ -11,13 +11,12 @@
 ```BASH
 cd ~
 yum update
-yum install epel-release
+yum install epel-release -y
 yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
-yum install yum-utils
+yum install yum-utils -y
 yum-config-manager --enable remi-php72
-yum update
-yum install php72
-yum install php72-php-fpm php72-php-gd php72-php-json php72-php-mbstring php72-php-mysqlnd php72-php-xml php72-php-xmlrpc php72-php-opcache
+yum install php72 -y
+yum install php72-php-fpm php72-php-gd php72-php-json php72-php-mbstring php72-php-mysqlnd php72-php-xml php72-php-xmlrpc php72-php-opcache -y
 systemctl enable php72-php-fpm.service
 yum install -y git wget curl net-tools
 git clone https://github.com/KLDGodY/udp-attack.git
