@@ -12,7 +12,7 @@
 cd ~
 yum update -y
 yum install epel-release -y
-yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
 yum install yum-utils -y
 yum-config-manager --enable remi-php72
 yum install php72 -y
